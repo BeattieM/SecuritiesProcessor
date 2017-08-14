@@ -74,7 +74,7 @@ class SecuritiesProcessor
   def security_to_string(security)
     <<~EOS
       #{security[:name]} - #{security[:symbol]}
-      Growth Rate: #{security[:growth]}
+      Percentage Growth: #{security[:growth]}%
       Dates: #{security[:dates]}
       Percentages: #{security[:percentages]} \n
     EOS
